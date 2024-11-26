@@ -12,6 +12,6 @@
         android:layout_height="wrap_content"
         tools:listitem="@layout/item_pizza"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        android:id="@+id/rv_pizza"/>
+        android:id="@+id/rv_pizza" />
 
 </FrameLayout>

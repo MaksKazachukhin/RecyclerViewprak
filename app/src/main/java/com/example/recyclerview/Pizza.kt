@@ -1,7 +1,8 @@
 package com.example.recyclerview
 
-data class Pizza(
-    var name: String,
-    var image: String
-)
+import java.io.Serializable
 
+data class Pizza(
+    val name: String,
+    val image: String
+):Serializable
